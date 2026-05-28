@@ -111,6 +111,7 @@ footer {
     height: 300px;
     background-size: cover;
     position: relative;
+    text-align: center;
 }
 .container{
     display: flex;
@@ -179,21 +180,26 @@ footer {
             transform: scale(1.2);
         }
  
-        .dis {
-            position: absolute;
-            top: -15px;
-            right: -25px;
-            width: fit-content;
-            padding: 10px;
-            border-radius: 7px;
-            background-color: red;
-            color: white;
-        }
+.dis {
+    position: absolute;
+    top: -15px;
+    right: -25px;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: red;
+    color: white;
+}
  
-        img {
-            width: 100%;
-            height: 150px;
-            /*border: 1px solid blueviolet;
-            border-radius: 10px;*/
- 
-        }
+img {
+    width: 100%;
+    height: 150px;
+    /*border: 1px solid blueviolet;
+    border-radius: 10px;*/
+}
+p{
+    padding: 15px;
+}
+li{
+    padding: 10px;
+}
