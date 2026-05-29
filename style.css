@@ -131,54 +131,54 @@ footer {
     height: 200px;
 }
 .row{
-            width: 100%;
-        }
-        .col-12{
-            width: 100%;
-            background-color: aqua;
-            text-align: center;
-            color: white;
-            padding: 20px;
-        }
-        .col-4{
-            width: 33.33%;
-            float: left;
-            padding: 10px;
-        }
-        img{
-            width: 100%;
-            height: 200px;
-        }
-        .col-8{
-            width: 66.66%;
-            padding: 10px;
-            float: left;
-        }
-        .row::after{
-            content: "";
-            clear: both;
-            display: block;
-        }
-        .container2 {
-            display: flex;
-            flex-wrap: wrap;
-        }
+    width: 100%;
+}
+.col-12{
+    width: 100%;
+    background-color: aqua;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.col-4{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+}
+img{
+    width: 100%;
+    height: 200px;
+}
+.col-8{
+    width: 66.66%;
+    padding: 10px;
+    float: left;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+}
  
-        .cad {
-            position: relative;
-            width: 200px;
-            border: 1px solid darkblue;
-            border-radius: 10px;
-            padding: 15px;
-            margin: 50px;
-            text-align: center;
-            color: darkblue;
-            font-weight: bold;
-        }
+.cad {
+    position: relative;
+    width: 200px;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 50px;
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
+}
  
-        .cad:hover {
-            transform: scale(1.2);
-        }
+.cad:hover {
+    transform: scale(1.2);
+    }
  
 .dis {
     position: absolute;
@@ -202,4 +202,21 @@ p{
 }
 li{
     padding: 10px;
+}
+.logo-circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  background: white;
+  display: grid;
+ 
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+ 
+.logo-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
